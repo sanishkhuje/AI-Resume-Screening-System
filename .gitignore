@@ -31,3 +31,10 @@ data/uploads/
 
 # Logs
 *.log
+
+venv/
+__pycache__/
+.env
+data/uploads/
+.vscode/
+*.pyc
