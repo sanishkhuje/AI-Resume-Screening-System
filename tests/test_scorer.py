@@ -1,6 +1,6 @@
 import pytest
-from core.phase2_extractor import ResumeExtractor
-from core.phase3_scorer import ResumeScorer
+from ai_service.core.phase2_extractor import ResumeExtractor
+from ai_service.core.phase3_scorer import ResumeScorer
 
 # -------------------------
 # Helper function to create data

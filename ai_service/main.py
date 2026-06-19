@@ -1,14 +1,14 @@
 import sys
 from pprint import pprint
 
-from utils.pdf_parser import PDFParser
-from utils.text_cleaner import TextCleaner
+from ai_service.utils.pdf_parser import PDFParser
+from ai_service.utils.text_cleaner import TextCleaner
 
-from core.phase1_gatekeeper import Gatekeeper
-from core.phase2_extractor import ResumeExtractor
-from core.phase3_scorer import ResumeScorer
-from core.phase4_xai import ResumeExplainer
-from core.phase5_mitigation import BiasMitigator
+from ai_service.core.phase1_gatekeeper import Gatekeeper
+from ai_service.core.phase2_extractor import ResumeExtractor
+from ai_service.core.phase3_scorer import ResumeScorer
+from ai_service.core.phase4_xai import ResumeExplainer
+from ai_service.core.phase5_mitigation import BiasMitigator
 
 
 # -------------------------------------------------

@@ -1,5 +1,5 @@
 import pytest
-from core.phase4_xai import ResumeExplainer
+from ai_service.core.phase4_xai import ResumeExplainer
 
 
 # -------------------------

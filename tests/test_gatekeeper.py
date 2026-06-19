@@ -1,7 +1,7 @@
 # tests/test_gatekeeper.py
 
 import pytest
-from core.phase1_gatekeeper import Gatekeeper
+from ai_service.core.phase1_gatekeeper import Gatekeeper
 
 
 def test_gatekeeper_empty_text():

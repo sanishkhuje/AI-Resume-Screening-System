@@ -1,7 +1,7 @@
 # tests/test_extractor.py
 
 import pytest
-from core.phase2_extractor import ResumeExtractor
+from ai_service.core.phase2_extractor import ResumeExtractor
 
 
 def test_resume_extraction_basic():

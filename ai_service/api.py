@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from main import run_pipeline
+from ai_service.main import run_pipeline
 
 app = FastAPI()
 
